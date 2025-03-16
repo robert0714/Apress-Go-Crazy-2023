@@ -3,7 +3,7 @@
 This repository accompanies [*Go Crazy*](https://www.link.springer.com/book/10.1007/978-1-4842-9666-0) by  Nicolas Modrzyk (Apress, 2023).
 
 [comment]: #cover
-![Cover image](978-1-4842-9665-3.jpg)
+![Cover image](https://m.media-amazon.com/images/I/610NkjDNPyL._SL1180_.jpg)
 
 Download the files as a zip using the green button, or clone the repository to your machine using Git.
 

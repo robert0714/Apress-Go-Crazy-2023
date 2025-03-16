@@ -3,6 +3,8 @@ package main
 import (
 	"context"
 	"fmt"
+	"log"
+
 	"github.com/PullRequestInc/go-gpt3"
 )
 
@@ -14,7 +16,10 @@ func main() {
 	request := gpt3.CompletionRequest{
 		Prompt: []string{"How many cups of coffee should I drink per day?"},
 	}
-	resp, _ := client.Completion(ctx, request)
+	resp, err := client.Completion(ctx, request)
+	if err != nil {
+		log.Fatalf("Failed to get completion: %v", err)
+	}
 
 	fmt.Print(resp.Choices[0].Text)
 }
